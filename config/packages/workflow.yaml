@@ -1,0 +1,28 @@
+framework:
+    workflows:
+        todo_workflow:
+            type: state_machine
+            marking_store:
+                type: method
+                property: state
+            supports:
+                - App\Entity\Todo
+            initial_marking: new
+            places:
+                - new
+                - in_progress
+                - completed
+                - archived
+            transitions:
+                start:
+                    from: new
+                    to: in_progress
+                complete:
+                    from: in_progress
+                    to: completed
+                archive:
+                    from: [new, in_progress, completed]
+                    to: archived
+                reopen:
+                    from: [completed, archived]
+                    to: new
