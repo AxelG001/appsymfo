@@ -30,7 +30,7 @@ J'ai développé cette application de type "Todo List" en utilisant Symfony et R
 1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/AxelG001/appsymfo.git
-   cd symfony-todo-list
+   cd todo-app
 ## ⚙️ Composer
 
  composer install
