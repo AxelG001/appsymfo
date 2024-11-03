@@ -1,47 +1,101 @@
 body {
-    background-color: lightgray;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-
 .todo-app {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-app h1 {
+  text-align: center;
+  color: #333;
 }
 
 .todo-input {
-    display: flex;
-    margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .todo-input input {
-    flex-grow: 1;
-    margin-right: 10px;
-    padding: 8px;
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.todo-input input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.todo-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-input button:hover {
+  background-color: #0056b3;
 }
 
 .todo-list {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .todo-list li {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.todo-list li:hover {
+  transform: scale(1.02);
+  background-color: #e9ecef;
 }
 
 .todo-list li.completed span {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 .todo-list li input[type="checkbox"] {
-    margin-right: 10px;
+  margin-right: 10px;
+  accent-color: #007bff;
+}
+
+.todo-list li span {
+  flex-grow: 1;
+  transition: color 0.3s ease;
 }
 
 .todo-list li button {
-    margin-left: auto;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-list li button:hover {
+  background-color: #c82333;
 }
