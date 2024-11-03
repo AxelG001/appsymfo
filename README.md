@@ -66,15 +66,15 @@ symfony server:start
 
 | Critère                                 | Note sur 5 | Commentaire                                                                                                                                   |
 |:----------------------------------------|:----------:|-----------------------------------------------------------------------------------------------------------------------------------------------:|
-| Modélisation et structure des données   |    1   | Compréhension de la structure des données et de la modélisation des entités.                                                                   |
+| Modélisation et structure des données   |    2   | Compréhension de la structure des données et de la modélisation des entités.                                                                   |
 | Maîtrise du routage                     |     2      | Utilisation correcte et adéquate des routes pour organiser les fonctionnalités de l’application.                                               |
-| Utilisation des contrôleurs             |    1.5     | Création et gestion des contrôleurs pour structurer la logique applicative.                                                                    |
+| Utilisation des contrôleurs             |    3     | Création et gestion des contrôleurs pour structurer la logique applicative.                                                                    |
 | Intégration de React avec Symfony UX    |    4     | Maîtrise de Symfony UX React pour intégrer le front-end de manière réactive.                                                                   |
-| Utilisation de Webpack Encore           |    4      | Exploitation de Webpack Encore pour la gestion des assets, y compris le front en React.                                                        |
-| Gestion des erreurs et débogage         |    1.5     | Capacité à gérer les erreurs rencontrées avec Composer et les dépendances.                                                                     |
-| Respect des concepts principaux de Symfony |     2  | Intégration des notions essentielles : entités, contrôleurs, Twig, etc.                                                                        |
-| Clarté et structure du code             |     3     | Lisibilité et bonne structure du code, respectant les conventions Symfony.                                                                     |
+| Utilisation de Webpack Encore           |    5     | Exploitation de Webpack Encore pour la gestion des assets, y compris le front en React.                                                        |
+| Gestion des erreurs et débogage         |    3.5     | Capacité à gérer les erreurs rencontrées avec Composer et les dépendances.                                                                     |
+| Respect des concepts principaux de Symfony |     3  | Intégration des notions essentielles : entités, contrôleurs, Twig, etc.                                                                        |
+| Clarté et structure du code             |     4    | Lisibilité et bonne structure du code, respectant les conventions Symfony.                                                                     |
 
 
 
-Note finale: 2/5
+Note finale: 3.5/5
